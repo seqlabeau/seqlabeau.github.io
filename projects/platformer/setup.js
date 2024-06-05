@@ -97,4 +97,5 @@ var collectableList = {
   kennedi: { image: "images/collectables/kennedi-head.png" },
   max: { image: "images/collectables/max-head.png" },
   steve: { image: "images/collectables/steve-head.png" },
+  gold: {image:"https://w7.pngwing.com/pngs/347/497/png-transparent-gold-gemstone-diamond-yellow-designer-gold-yellow-diamond-blue-triangle-yellow-flowers.png"},
 };
