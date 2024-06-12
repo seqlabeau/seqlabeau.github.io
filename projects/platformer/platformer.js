@@ -50,6 +50,9 @@ $(function () {
     createPlatform(300,500,80,50)
     createPlatform(400,400,80,60)
     createPlatform(605,500,100,60)
+    createPlatform(100,300,100,60)
+    createPlatform(800,600,100,60)
+    createPlatform(930,400,100,60)
     
     
 
@@ -62,7 +65,8 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
     createCollectable('gold', 300,300, 0.1, 1)
     createCollectable('database',400,300, 0.01,1)
-    createCollectable('gold', 400, 200, 0.1,0.1)
+    createCollectable('gold',600, 400, 1,1)
+    createCollectable('gold',100,,300,0.1)
   
   
   
@@ -78,6 +82,8 @@ $(function () {
     createCannon('top', 100, 2000, 30, 10)
     createCannon('top', 400, 2000, 20, 10)
     createCannon('bottom',300, 3000, 20,10)
+    createCannon('bottom', 600, 2000, 20, 10)
+    createCannon('top', 900, 2000, 20, 10)
 
 
 
